@@ -4,20 +4,19 @@ import React from 'react';
 
 const Students = () => {
     return (
-        <div className="container">
+        <div className="projects">
             <h1>My Projects</h1>
             <p></p>
-            <section className="projects">
-                <div className="student">
-                    <img src="/project1.jpg" alt="Student1" className="student-image" />
-                    
+            <section className="student">
+                <div className="projects">
+                    <img src="/project1.jpg" alt="Project 1" className="projects" />
                 </div>
-                <div className="student">
-                    <img src="/project2.jpg" alt="Student 2" className="student-image" />
+                <div className="projects">
+                    <img src="/project2.jpg" alt="Project 2" className="projects" />
                    
                 </div>
-                <div className="student">
-                    <img src="/project3.jpg" alt="Student 3" className="student-image" />
+                <div className="projects">
+                    <img src="/project3.jpg" alt="Project 3" className="projects" />
                    
                 </div>
             </section>
